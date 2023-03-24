@@ -1,0 +1,134 @@
+body{
+    background-image: url(assets/images/pattern-background-desktop.svg);
+}
+
+
+
+
+
+.n-1{
+    width: 420px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: serif;
+   }
+   .container{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    /* width: 450px; */
+    /* justify-content: center; */
+    max-width: 450px;
+    margin: auto;
+    margin-top: 50px;
+    /* display: grid; */
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    /* max-height: 900px; */
+    height: 570px;
+   }
+   .noob-1{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+   }
+
+   .n-2{
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 1rem;
+   }
+
+   .music{
+    display: flex;
+    /* gap: 2rem; */
+    background-color: beige;
+    border-radius: 8px;
+    border: 3px solid antiquewhite;
+    /* padding: 10px; */
+    padding-right: 100px;
+   }
+
+   .boot-1{
+    padding-left: 30px;
+    /* padding-top: 100px; */
+   }
+
+
+   /* .change{
+    padding-left: 100px;
+   } */
+
+
+span{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+/* .procces{
+    justify-content: center;
+    border: 3px solid blue;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+} */
+
+
+
+.music-img{
+    width: 4rem;
+    height: 4rem;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+button{
+    position: relative;
+    top: 10px;
+    font-size: 1.25rem;
+    padding-left: 20px;
+    color: white;
+    background-color: blue;
+    border:  2px solid white;
+    border-radius: 8px;
+    padding-right: 20px;
+
+}
+
+a{
+    position: relative;
+    top: 20px;
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 390px) {
+    body{
+        background-image: url(assets/images/pattern-background-mobile.svg);
+    }
+    .container{
+        border: 3px solid whitesmoke;
+        border-radius: 10px;
+        height: 500px;
+        max-width: 300px;
+        margin: auto;
+    }
+    .noob-1{
+        width: 300px;
+    }
+    .n-1{
+        text-align: center;
+        font-size: 1.25rem;
+        position: relative;
+        right: 50px;
+    }
+    span{
+        position: relative;
+        left: -90px;
+    }
+    
+}
